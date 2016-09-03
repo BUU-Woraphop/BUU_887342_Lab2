@@ -34,9 +34,10 @@ public class Rec {
 	public static String reverse(String s) {
 		int numlong = s.length()-1;
 		String reverse = "";
-			for(int i = numlong ; i >= 0 ; i--){																reverse = reverse + s.charAt(i);
-												}
-												return reverse;
+			for(int i = numlong ; i >= 0 ; i--){					
+				reverse = reverse + s.charAt(i);
+			}
+		return reverse;
 	// fill me in
 	
 	}
